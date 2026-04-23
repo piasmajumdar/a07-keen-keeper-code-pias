@@ -10,7 +10,10 @@ export const router = createBrowserRouter([
         path: '/',
         Component: MainLayout,
         children: [
-            {index: true, Component: HomePage},
+            {
+                index: true,
+                Component: HomePage
+            },
             {
                 path: '/timeline',
                 Component: Timeline
