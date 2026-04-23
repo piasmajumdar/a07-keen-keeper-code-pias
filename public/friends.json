@@ -1,0 +1,152 @@
+[
+    {
+        "id": 1,
+        "name": "Aarav Sharma",
+        "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+        "email": "aarav.sharma@gmail.com",
+        "days_since_contact": 18,
+        "status": "overdue",
+        "tags": [
+            "college",
+            "close friend"
+        ],
+        "bio": "We studied computer science together in Bangalore. He now works at a startup and still loves late-night coding and chai.",
+        "goal": 14,
+        "next_due_date": "2026-04-20"
+    },
+    {
+        "id": 2,
+        "name": "Emily Carter",
+        "picture": "https://randomuser.me/api/portraits/women/44.jpg",
+        "email": "emily.carter@outlook.com",
+        "days_since_contact": 10,
+        "status": "almost due",
+        "tags": [
+            "work",
+            "designer"
+        ],
+        "bio": "Worked together on a freelance UI project. She’s passionate about minimal design and often shares useful design resources.",
+        "goal": 14,
+        "next_due_date": "2026-04-28"
+    },
+    {
+        "id": 3,
+        "name": "Rohan Patil",
+        "picture": "https://randomuser.me/api/portraits/men/76.jpg",
+        "email": "rohan.patil@yahoo.com",
+        "days_since_contact": 5,
+        "status": "on-track",
+        "tags": [
+            "gym",
+            "local"
+        ],
+        "bio": "Met at the gym in Belgaum. We train together on weekends and push each other to stay consistent.",
+        "goal": 14,
+        "next_due_date": "2026-05-03"
+    },
+    {
+        "id": 4,
+        "name": "Sophia Nguyen",
+        "picture": "https://randomuser.me/api/portraits/women/68.jpg",
+        "email": "sophia.nguyen@gmail.com",
+        "days_since_contact": 22,
+        "status": "overdue",
+        "tags": [
+            "travel",
+            "photography"
+        ],
+        "bio": "Met during a solo trip to Thailand. She’s a travel photographer and shares stunning landscapes on Instagram.",
+        "goal": 14,
+        "next_due_date": "2026-04-16"
+    },
+    {
+        "id": 5,
+        "name": "Daniel Brooks",
+        "picture": "https://randomuser.me/api/portraits/men/51.jpg",
+        "email": "daniel.brooks@mail.com",
+        "days_since_contact": 13,
+        "status": "almost due",
+        "tags": [
+            "gaming",
+            "online friend"
+        ],
+        "bio": "We met playing multiplayer games online. We still catch up during weekend gaming sessions.",
+        "goal": 14,
+        "next_due_date": "2026-04-25"
+    },
+    {
+        "id": 6,
+        "name": "Priya Desai",
+        "picture": "https://randomuser.me/api/portraits/women/21.jpg",
+        "email": "priya.desai@gmail.com",
+        "days_since_contact": 7,
+        "status": "on-track",
+        "tags": [
+            "school",
+            "best friend"
+        ],
+        "bio": "We’ve been friends since school days. She’s now a teacher and always gives thoughtful life advice.",
+        "goal": 14,
+        "next_due_date": "2026-05-01"
+    },
+    {
+        "id": 7,
+        "name": "Kabir Khan",
+        "picture": "https://randomuser.me/api/portraits/men/15.jpg",
+        "email": "kabir.khan@protonmail.com",
+        "days_since_contact": 16,
+        "status": "overdue",
+        "tags": [
+            "startup",
+            "mentor"
+        ],
+        "bio": "A mentor from a startup networking event. He gives practical advice on business and career growth.",
+        "goal": 14,
+        "next_due_date": "2026-04-18"
+    },
+    {
+        "id": 8,
+        "name": "Isabella Rossi",
+        "picture": "https://randomuser.me/api/portraits/women/55.jpg",
+        "email": "isabella.rossi@mail.com",
+        "days_since_contact": 3,
+        "status": "on-track",
+        "tags": [
+            "language exchange",
+            "international"
+        ],
+        "bio": "We connected through a language exchange app. She’s helping me learn Italian while improving her English.",
+        "goal": 14,
+        "next_due_date": "2026-05-05"
+    },
+    {
+        "id": 9,
+        "name": "Neha Kulkarni",
+        "picture": "https://randomuser.me/api/portraits/women/33.jpg",
+        "email": "neha.kulkarni@gmail.com",
+        "days_since_contact": 12,
+        "status": "almost due",
+        "tags": [
+            "office",
+            "team lead"
+        ],
+        "bio": "My former team lead who guided me during my first job. She’s always supportive and career-focused.",
+        "goal": 14,
+        "next_due_date": "2026-04-26"
+    },
+    {
+        "id": 10,
+        "name": "Lucas Pereira",
+        "picture": "https://randomuser.me/api/portraits/men/60.jpg",
+        "email": "lucas.pereira@mail.com",
+        "days_since_contact": 20,
+        "status": "overdue",
+        "tags": [
+            "football",
+            "travel buddy"
+        ],
+        "bio": "Met during a football camp in Goa. We bonded over matches and still discuss games regularly.",
+        "goal": 14,
+        "next_due_date": "2026-04-19"
+    }
+]

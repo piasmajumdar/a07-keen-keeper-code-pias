@@ -17,7 +17,7 @@ const Footer = () => {
                         <button className='w-10 h-10 rounded-full bg-white text-[#101727] flex justify-center items-center cursor-pointer'><a href='/'><FaXTwitter className='text-2xl' /></a> </button>
                     </div>
                 </div>
-                <div className='text-white/50 flex justify-between pt-8'>
+                <div className='text-white/50 flex justify-between pt-8 border-t border-t-[#1A8862]/50'>
                     <div>© 2026 KeenKeeper. All rights reserved.</div>
                     <div className='flex gap-4'>
                         <a className='cursor-pointer'>Privacy Policy</a>
