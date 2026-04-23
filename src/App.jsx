@@ -5,7 +5,7 @@ function App() {
 
   return (
     <div>
-      
+      <h2 className='text-6xl'>I Love YOu</h2>
     </div>
   )
 }
