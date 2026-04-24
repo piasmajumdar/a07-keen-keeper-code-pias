@@ -6,18 +6,18 @@ export const TimelineContext = createContext('');
 
 export const TimelineProvider = ({ children }) => {
     const [friendsTimeline, setFriendsTimeline] = useState([]);
-    const dateOfActivity = new Date();
+    const dateOfAct = new Date();
 
-    const handleCheckIn = (event, friend) => {
-        const activity = event.target.innerText;
-        // console.log(event.target.innerText);
+    const handleCheckIn = (act, friend) => {
+        // const act = event.target.innerText;
+        // console.log(event.target.innerText); --> Bug because of clicked on div/span.
         const newFriendTimeline = {
             ...friend,
-            activity,
-            dateOfActivity
+            act,
+            dateOfAct
         }
         setFriendsTimeline([...friendsTimeline, newFriendTimeline])
-        toast.success(`${activity} with ${friend.name}`)
+        toast.success(`${act} with ${friend.name}`)
         console.log(friendsTimeline)
     }
 

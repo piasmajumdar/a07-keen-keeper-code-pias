@@ -108,9 +108,9 @@ const FriendDetails = () => {
                             <div className="card-body p-6">
                                 <h2 className="font-medium text-xl text-[#244D3F]">Quick Check-In</h2>
                                 <div className='flex gap-4'>
-                                    <button onClick={() => handleCheckIn(event, friend)} className='btn h-auto p-4 flex flex-col flex-1 justify-center items-center text-[#1F2937] text-lg'><BiPhoneCall className='text-2xl' /> <span>Call</span></button>
-                                    <button onClick={() => handleCheckIn(event, friend)} className='btn h-auto p-4 flex flex-col flex-1 justify-center items-center text-[#1F2937] text-lg'><MdOutlineTextsms className='text-2xl' /> Text</button>
-                                    <button onClick={() => handleCheckIn(event, friend)} className='btn h-auto p-4 flex flex-col flex-1 justify-center items-center text-[#1F2937] text-lg'><PiVideoCameraBold className='text-2xl' /> Video</button>
+                                    <button onClick={() => handleCheckIn("Call", friend)} className='btn h-auto p-4 flex flex-col flex-1 justify-center items-center text-[#1F2937] text-lg'><BiPhoneCall className='text-2xl' /> <span>Call</span></button>
+                                    <button onClick={() => handleCheckIn("Text", friend)} className='btn h-auto p-4 flex flex-col flex-1 justify-center items-center text-[#1F2937] text-lg'><MdOutlineTextsms className='text-2xl' /> <span>Text</span></button>
+                                    <button onClick={() => handleCheckIn("Video", friend)} className='btn h-auto p-4 flex flex-col flex-1 justify-center items-center text-[#1F2937] text-lg'><PiVideoCameraBold className='text-2xl' /> <span>Video</span></button>
                                 </div>
                             </div>
                         </div>

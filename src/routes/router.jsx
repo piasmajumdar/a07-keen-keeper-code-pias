@@ -5,10 +5,10 @@ import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import Timeline from "../pages/timeline/Timeline";
 import StatsPage from "../pages/stats/StatsPage";
 import FriendDetails from "../pages/FriendDetails/FriendDetails";
-import AllActivity from "../pages/timeline/allActivity/AllActivity";
 import FilterCall from "../pages/timeline/FilterPage/FilterCall";
 import FilterText from "../pages/timeline/FilterPage/FilterText";
 import FilterVideo from "../pages/timeline/FilterPage/FilterVideo";
+import AllActivity from "../pages/timeline/allActivity/AllActivity";
 
 export const router = createBrowserRouter([
     {
