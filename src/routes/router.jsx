@@ -27,7 +27,7 @@ export const router = createBrowserRouter([
                 path: '/friend-details/:friendId',
                 loader: ()=> fetch('/friends.json'),
                 Component: FriendDetails
-            }
+            },
         ],
         errorElement: <ErrorPage></ErrorPage>
     },
