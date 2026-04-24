@@ -67,7 +67,7 @@ const FriendDetails = () => {
 
                 {/* Right Side */}
                 <div className='flex-1 space-y-6'>
-                    <div className='flex gap-6'>
+                    <div className='flex flex-wrap md:flex-nowrap gap-6'>
                         <div className="card bg-base-100 card-xs shadow-sm flex-1">
                             <div className="card-body text-center py-8 px-4">
                                 <h2 className="font-semibold text-3xl text-[#244D3F]">{friend.days_since_contact}</h2>

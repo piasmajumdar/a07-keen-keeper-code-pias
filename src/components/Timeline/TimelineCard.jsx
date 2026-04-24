@@ -4,7 +4,7 @@ import Text from '../../assets/text.png'
 import Video from '../../assets/video.png'
 
 const TimelineCard = ({ friend }) => {
-    console.log(friend)
+    // console.log(friend)
     return (
         <div>
             <div className="card bg-base-100 card-xs shadow-sm p-4">
