@@ -14,7 +14,7 @@ const TimelineCard = ({ friend }) => {
                     </div>
                     <div className='text-[#64748B]'>
                         <h2><span className='text-xl font-medium text-[#244D3F]'>{friend.act}</span> <span className='text-lg'>with {friend.name}</span></h2>
-                        <p className='font-medium text-base'>{new Date(friend.dateOfact).toLocaleDateString("en-US", {
+                        <p className='font-medium text-base'>{new Date(friend.dateOfAct).toLocaleDateString("en-US", {
                             month: "short",
                             day: "numeric",
                             year: "numeric",
