@@ -21,7 +21,7 @@ const StatsPage = ({ isAnimationActive = true }) => {
     return (
         <div className='w-11/12 max-w-[1110px] mx-auto py-20'>
             <div className='space-y-6'>
-                <h2 className='font-bold text-5xl text-[#1F2937]'>Friendship Analytics</h2>
+                <h2 className='font-bold text-3xl sm:text-4xl md:text-5xl text-[#1F2937]'>Friendship Analytics</h2>
 
 
 

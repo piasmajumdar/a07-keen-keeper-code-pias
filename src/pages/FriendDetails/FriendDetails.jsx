@@ -67,39 +67,39 @@ const FriendDetails = () => {
 
                 {/* Right Side */}
                 <div className='flex-1 space-y-6'>
-                    <div className='flex flex-wrap md:flex-nowrap gap-6'>
+                    <div className='flex flex-col sm:flex-row sm:flex-wrap md:flex-nowrap gap-6'>
                         <div className="card bg-base-100 card-xs shadow-sm flex-1">
-                            <div className="card-body text-center py-8 px-4">
-                                <h2 className="font-semibold text-3xl text-[#244D3F]">{friend.days_since_contact}</h2>
-                                <h2 className='text-[#64748B] text-lg'>Days Since Contact</h2>
+                            <div className="card-body text-center py-2 px-1 sm:py-8 sm:px-4">
+                                <h2 className="font-semibold text-xl sm:text-3xl text-[#244D3F]">{friend.days_since_contact}</h2>
+                                <h2 className='text-[#64748B] text-base sm:text-lg'>Days Since Contact</h2>
                             </div>
                         </div>
                         <div className="card bg-base-100 card-xs shadow-sm flex-1">
-                            <div className="card-body text-center py-8 px-4">
-                                <h2 className="font-semibold text-3xl text-[#244D3F]">{friend.goal}</h2>
-                                <h2 className='text-[#64748B] text-lg'>Goal (Days)</h2>
+                            <div className="card-body text-center py-2 px-1 sm:py-8 sm:px-4">
+                                <h2 className="font-semibold text-xl sm:text-3xl text-[#244D3F]">{friend.goal}</h2>
+                                <h2 className='text-[#64748B] text-base sm:text-lg'>Goal (Days)</h2>
                             </div>
                         </div>
                         <div className="card bg-base-100 card-xs shadow-sm flex-1">
-                            <div className="card-body text-center py-8 px-4">
-                                <h2 className="font-semibold text-3xl text-[#244D3F]">{new Date(friend.next_due_date).toLocaleDateString("en-US", {
+                            <div className="card-body text-center py-2 px-1 sm:py-8 sm:px-4">
+                                <h2 className="font-semibold text-xl sm:text-3xl text-[#244D3F]">{new Date(friend.next_due_date).toLocaleDateString("en-US", {
                                     month: "short",
                                     day: "numeric",
                                     year: "numeric",
                                 })}</h2>
-                                <h2 className='text-[#64748B] text-lg'>Next Due</h2>
+                                <h2 className='text-[#64748B] text-base sm:text-lg'>Next Due</h2>
                             </div>
                         </div>
                     </div>
 
                     <div>
                         <div className="card bg-base-100 card-xs shadow-sm flex-1">
-                            <div className="card-body p-6">
+                            <div className="card-body p-2 sm:p-6">
                                 <div className='flex justify-between items-center'>
-                                    <h2 className="font-medium text-xl text-[#244D3F]">Relationship Goal</h2>
+                                    <h2 className="font-medium text-lg sm:text-xl text-[#244D3F]">Relationship Goal</h2>
                                     <button className='btn text-[#1F2937] font-medium'>Edit</button>
                                 </div>
-                                <h2 className='text-[#64748B] text-lg'>Connect every <span className='text-[#1F2937] font-bold'>{friend.goal} days</span></h2>
+                                <h2 className='text-[#64748B] text-base sm:text-lg'>Connect every <span className='text-[#1F2937] font-bold'>{friend.goal} days</span></h2>
                             </div>
                         </div>
                     </div>
@@ -107,7 +107,7 @@ const FriendDetails = () => {
                         <div className="card bg-base-100 card-xs shadow-sm flex-1">
                             <div className="card-body p-6">
                                 <h2 className="font-medium text-xl text-[#244D3F]">Quick Check-In</h2>
-                                <div className='flex gap-4'>
+                                <div className='flex flex-wrap gap-4'>
                                     <button onClick={() => handleCheckIn("Call", friend)} className='btn h-auto p-4 flex flex-col flex-1 justify-center items-center text-[#1F2937] text-lg'><BiPhoneCall className='text-2xl' /> <span>Call</span></button>
                                     <button onClick={() => handleCheckIn("Text", friend)} className='btn h-auto p-4 flex flex-col flex-1 justify-center items-center text-[#1F2937] text-lg'><MdOutlineTextsms className='text-2xl' /> <span>Text</span></button>
                                     <button onClick={() => handleCheckIn("Video", friend)} className='btn h-auto p-4 flex flex-col flex-1 justify-center items-center text-[#1F2937] text-lg'><PiVideoCameraBold className='text-2xl' /> <span>Video</span></button>
