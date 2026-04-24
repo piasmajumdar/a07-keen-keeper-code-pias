@@ -18,7 +18,7 @@ export const TimelineProvider = ({ children }) => {
         }
         setFriendsTimeline([...friendsTimeline, newFriendTimeline])
         toast.success(`${act} with ${friend.name}`)
-        console.log(friendsTimeline)
+        // console.log(friendsTimeline)
     }
 
     const data = {
