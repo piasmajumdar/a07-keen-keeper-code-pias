@@ -26,8 +26,8 @@
             "designer"
         ],
         "bio": "Worked together on a freelance UI project. She’s passionate about minimal design and often shares useful design resources.",
-        "goal": 14,
-        "next_due_date": "2026-04-28"
+        "goal": 16,
+        "next_due_date": "2026-04-30"
     },
     {
         "id": 3,
@@ -41,8 +41,8 @@
             "local"
         ],
         "bio": "Met at the gym in Belgaum. We train together on weekends and push each other to stay consistent.",
-        "goal": 14,
-        "next_due_date": "2026-05-03"
+        "goal": 10,
+        "next_due_date": "2026-04-29"
     },
     {
         "id": 4,
@@ -56,8 +56,8 @@
             "photography"
         ],
         "bio": "Met during a solo trip to Thailand. She’s a travel photographer and shares stunning landscapes on Instagram.",
-        "goal": 14,
-        "next_due_date": "2026-04-16"
+        "goal": 15,
+        "next_due_date": "2026-04-17"
     },
     {
         "id": 5,
@@ -71,8 +71,8 @@
             "online friend"
         ],
         "bio": "We met playing multiplayer games online. We still catch up during weekend gaming sessions.",
-        "goal": 14,
-        "next_due_date": "2026-04-25"
+        "goal": 15,
+        "next_due_date": "2026-04-26"
     },
     {
         "id": 6,
@@ -86,8 +86,8 @@
             "best friend"
         ],
         "bio": "We’ve been friends since school days. She’s now a teacher and always gives thoughtful life advice.",
-        "goal": 14,
-        "next_due_date": "2026-05-01"
+        "goal": 12,
+        "next_due_date": "2026-04-29"
     },
     {
         "id": 7,
@@ -101,8 +101,8 @@
             "mentor"
         ],
         "bio": "A mentor from a startup networking event. He gives practical advice on business and career growth.",
-        "goal": 14,
-        "next_due_date": "2026-04-18"
+        "goal": 12,
+        "next_due_date": "2026-04-20"
     },
     {
         "id": 8,
@@ -115,8 +115,8 @@
             "international"
         ],
         "bio": "We connected through a language exchange app. She’s helping me learn Italian while improving her English.",
-        "goal": 14,
-        "next_due_date": "2026-05-05"
+        "goal": 20,
+        "next_due_date": "2026-05-11"
     },
     {
         "id": 9,
@@ -130,8 +130,8 @@
             "team lead"
         ],
         "bio": "My former team lead who guided me during my first job. She’s always supportive and career-focused.",
-        "goal": 14,
-        "next_due_date": "2026-04-26"
+        "goal": 15,
+        "next_due_date": "2026-04-27"
     },
     {
         "id": 10,
@@ -146,6 +146,6 @@
         ],
         "bio": "Met during a football camp in Goa. We bonded over matches and still discuss games regularly.",
         "goal": 14,
-        "next_due_date": "2026-04-19"
+        "next_due_date": "2026-04-18"
     }
 ]

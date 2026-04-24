@@ -5,7 +5,7 @@ const FriendSmallCard = ({ friend }) => {
     // console.log(friend)
 
     return (
-        <Link to={`/friend-details/${friend.id}`}>
+        <a href={`/friend-details/${friend.id}`}>
             <div className="card bg-base-100 shadow-sm">
                 <figure className='pt-6'>
                     <img
@@ -34,7 +34,7 @@ const FriendSmallCard = ({ friend }) => {
                 </div>
             </div>
 
-        </Link>
+        </a>
     );
 };
 
