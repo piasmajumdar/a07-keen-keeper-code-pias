@@ -11,7 +11,7 @@ const FilterCall = () => {
 
     // console.log(friendsTimeline);
 
-    if (friendsTimeline.length == '0') {
+    if (filteredByCallFriends.length == '0') {
         return <NoData></NoData>
     }
 

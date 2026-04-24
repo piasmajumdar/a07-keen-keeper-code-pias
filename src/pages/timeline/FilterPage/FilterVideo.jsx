@@ -9,7 +9,7 @@ const FilterVideo = () => {
 
     const filteredByVideoFriends = friendsTimeline.filter(friend => friend.act == "Video");
 
-    if (friendsTimeline.length == '0') {
+    if (filteredByVideoFriends.length == '0') {
         return <NoData></NoData>
     }
 

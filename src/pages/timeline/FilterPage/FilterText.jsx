@@ -10,7 +10,7 @@ const FilterText = () => {
 
     const filteredByTextFriends = friendsTimeline.filter(friend => friend.act == 'Text');
 
-    if (friendsTimeline.length == '0') {
+    if (filteredByTextFriends.length == '0') {
         return <NoData></NoData>
     }
 
