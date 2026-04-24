@@ -1,6 +1,16 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { TimelineContext } from '../../../context/TimelineContext';
+import NoData from '../../../components/ui/Shared/NoData';
 
 const FilterCall = () => {
+    const { friendsTimeline } = useContext(TimelineContext);
+
+    // console.log(friendsTimeline);
+
+    if (friendsTimeline.length == '0') {
+        return <NoData></NoData>
+    }
+
     return (
         <div>
             <h2>Filter by Call</h2>
