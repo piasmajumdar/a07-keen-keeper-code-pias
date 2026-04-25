@@ -18,6 +18,11 @@ const Timeline = () => {
         setSelectedFilter('');
         setFilteredFriends(friendsTimeline);
     }
+    const handleAllReset = ()=> {
+        handleFilterReset();
+        setSelectedSort('');
+        
+    }
 
     const handleCall = () => {
         setSelectedFilter('Call')
@@ -56,8 +61,9 @@ const Timeline = () => {
         setSearch(inputSearch)
         // console.log(inputSearch)
 
-        if(inputSearch){
-            const searchedFriends = filteredFriends.filter(friend=> friend.name.toLowerCase().trim().includes(inputSearch.toLowerCase().trim()) || friend.act.toLowerCase().trim().includes(inputSearch.toLowerCase().trim()));
+        if (inputSearch) {
+            handleAllReset();
+            const searchedFriends = friendsTimeline.filter(friend => friend.name.toLowerCase().trim().includes(inputSearch.toLowerCase().trim()) || friend.act.toLowerCase().trim().includes(inputSearch.toLowerCase().trim()));
             // console.log(searchedFriends)
             setFilteredFriends(searchedFriends)
         }
@@ -94,7 +100,7 @@ const Timeline = () => {
                         </label>
                     </form>
                 </div>
-                <div className='flex flex-wrap justify-start items-center'>
+                <div className='flex flex-wrap gap-1 justify-start items-center'>
                     {/* DropDown FILTER */}
                     <div className="dropdown dropdown-start">
                         <div tabIndex={0} role="button" className="btn h-auto m-1 text-base sm:text-lg font-normal text-[#64748B]"> {selectedFilter ? selectedFilter : 'Filter timelines'} <RiArrowDownSLine className='ml-10 lg:ml-15' /></div>
@@ -122,6 +128,8 @@ const Timeline = () => {
                             </ul>
                         </div>
                     </div>
+                    <button onClick={handleAllReset} className='text-gray-400 btn h-7.5 text-base font-medium'>Clear all Filter</button>
+
                 </div>
 
                 {/* <Outlet></Outlet> */}
